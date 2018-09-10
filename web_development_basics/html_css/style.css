@@ -1,12 +1,12 @@
 html {
-    background-color: palegreen;
+    background-color: beige;
     font-size: 20px;
 }
 
 ul {
-    background: green;
+    background: burlywood;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px saddlebrown;
 }
 
 li {
