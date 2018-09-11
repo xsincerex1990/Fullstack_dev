@@ -11,6 +11,14 @@ HYPERTEXT MARKUP LANGUAGE
 * To apply CSS & JS to HTML its mostly done by <link> & <script> elements
 * <link> always takes two attributes rel="stylessheet" & href="my-css-file.css"
 * Place script at bottom of body just before closing </body> tag.
+* Make any element look like a top level heading <span style="font-size: 32px; margin: 21px 0;"> Heading that looks like top level(<h1>)</span>
+
+
+
+
+
+
+
 
 * Self closing elements
     * <br>, <input>,
