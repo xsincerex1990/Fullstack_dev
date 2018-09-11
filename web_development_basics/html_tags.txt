@@ -1,0 +1,18 @@
+<ul>-- unordered list (wraps around all the list items)
+<li>--(list item) element.
+<ol>--Ordered list (order matters)
+<em>--emphasize
+<i><b><u>--Italics, bold, underline, only underline links & use CSS
+
+<i> is used to convey a meaning traditionally conveyed by italic: Foreign words, taxonomic designation, technical terms, a thought...
+
+<b> is used to convey a meaning traditionally conveyed by bold: Key words, product names, lead sentence...
+
+<u> is used to convey a meaning traditionally conveyed by underline: Proper name, misspelling...
+
+<i lang="uk-latn"></i>
+
+<a href="hypertext reference.com" title="look at me while you hover over link"> HTML lesson </a>
+
+<h2 id="Mailing_address">Mailing address</h2>--Assign link to specific part of HTML document(Document Fragment)
+
