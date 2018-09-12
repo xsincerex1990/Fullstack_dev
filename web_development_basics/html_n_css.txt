@@ -13,7 +13,15 @@ HYPERTEXT MARKUP LANGUAGE
 * Place script at bottom of body just before closing </body> tag.
 * Make any element look like a top level heading <span style="font-size: 32px; margin: 21px 0;"> Heading that looks like top level(<h1>)</span>
 
+*Planning out a site..
+    * Almost Every page follows the rules <header> title & logo </header>
+    *<footer> contact details, copyright notice, terms & conditions
+    *site language
+    *draw a skect
+    *write content down
+    *Then sort to give u an idea of where its going on the page.
 
+*Use HTML Validation Services to check your mark up
 
 
 

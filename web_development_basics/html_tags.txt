@@ -27,3 +27,9 @@
 <aside>
 <footer>
 
+<span>--inline 
+<div>-- block level non-semantic 
+
+<br>--break line in paragraph
+<hr>-- horizontal rule in the document
+
