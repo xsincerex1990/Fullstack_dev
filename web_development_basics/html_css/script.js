@@ -2,7 +2,7 @@ let things = document.createElement("ul");
 let info = document.createElement("p");
 let cbtn = document.querySelector("button")
 //queryselector() returns the first element within the document that matches the specified selector
-let html = document.querySelector("html");
+let aside = document.querySelector("aside");
 
 
 document.body.appendChild(info);

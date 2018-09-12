@@ -1,6 +1,5 @@
 html {
     background-color: beige;
-    font-size: 20px;
 }
 
 html, body {
@@ -10,13 +9,14 @@ html, body {
 
 body {
     font-size: 10px;
-    background-color: burlywood;
+    background-color: wheat
     margin: 0 auto;
 }
 
 p, input, li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
     color: black;
+    font-size: 12px
 }
 
 h1 {
@@ -28,31 +28,30 @@ h1 {
 }
 
 ul {
-    background: burlywood;
-    padding: 10px;
-    border: 1px saddlebrown;
+    background: rgb(206, 130, 30);
+    font-size: 7px
 }
 
 p, li {
     font-size: 1.6rem;
-    line-height: 1.5
+    line-height: 2
 }
 
 /* HEADER LAYOUT */
 
 nav, article, aside, footer {
-    background-color: burlywood;
-    padding: 1%;
+    background-color: rgb(206, 130, 30);
+    padding: 2%;
+    margin: 1em;
+    font-size: 10px;
 }
 
 nav {
     height: 50px;
     display: flex;
-    margin-bottom: 10px;
 }
 
 nav ul {
-    padding: 0;
     list-style-type: none;
     flex: 2;
     display: flex;
@@ -73,23 +72,23 @@ article {
 
 article p {
     text-align: center;
-    font-size: xx-large;
     font-family: cursive
 }
 
 
 aside {
     flex: 1;
-    margin-left: 10px;
-    background-color: burlywood;
+    margin-left: 5px;
+    background-color: rgb(206, 130, 30);
 }
 
-aside li {
-    padding-bottom: 10px;
+aside ul li{
+    font-size: 15px;
+
 }
 
 footer {
-    margin-top: 10px;
+    margin-top:5px;
 }
 
 /***/
