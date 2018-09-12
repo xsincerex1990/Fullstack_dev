@@ -16,3 +16,14 @@
 
 <h2 id="Mailing_address">Mailing address</h2>--Assign link to specific part of HTML document(Document Fragment)
 
+<blockquote> Element (or HTML Block Quotation Element) indicates that the enclosed text is an extended quotation.
+
+<dl> -- description list
+<dt> -- description term
+<dd> -- description definition
+<header>
+<nav>
+<main> subsections-> <article>, <section>, <div>
+<aside>
+<footer>
+

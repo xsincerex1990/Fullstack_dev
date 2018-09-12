@@ -1,15 +1,16 @@
 let things = document.createElement("ul");
 let info = document.createElement("p");
+let cbtn = document.querySelector("button")
 //queryselector() returns the first element within the document that matches the specified selector
-let html = document.querySelector("body");
+let html = document.querySelector("html");
 
-// textContent property represents the text content of a node and its descendants
-things.textContent = 'Click anywhere outside the list to add a new list item. Click an existing list item to change its text to something else.'
 
 document.body.appendChild(info);
 document.body.appendChild(things);
-
-html.onclick = function() { 
+// textContent property represents the text content of a node and its descendants
+info.textContent = 'Click an existing list item to change its text to something else.'
+cbtn.textContent = 'Click me to add item.'
+cbtn.onclick = function() { 
     var listItem = document.createElement('li');
     var listContent = prompt("what contents do you want bishhh?");
     listItem.textContent = listContent
