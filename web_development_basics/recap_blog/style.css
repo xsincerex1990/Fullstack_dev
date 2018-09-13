@@ -1,0 +1,33 @@
+html {
+    margin: 0%;
+    padding: 0%;
+
+}
+html body {
+    background-color: lightgray;
+    margin: 0 auto;
+    padding: 0%;
+    width: 500px;
+    border: 1px solid black;
+}
+
+header {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li{
+    display: inline;
+    border: 1px solid black;
+}
