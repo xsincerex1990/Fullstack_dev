@@ -1,72 +1,47 @@
-html {
-    margin: 0%;
-    padding: 0%;
-    background-image: url("images/html.jpg")
 
-}
-html body {
-    background-color: lightgray;
-    margin: 0 auto;
-    padding: 8px;
-    border: 4px solid black;
-    width: 900px;
-    height: 600px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-}
 
-#header {
-    background-color: rgb(21, 244, 66);
-    border: 1px solid black;
-    padding-left: 5px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    background-image: url("images/babyelephant.jpg.svg");
+.header {
+    height: 150px;
+    width: 1000px;
+    font: 20px;
+    background-color: blanchedalmond;
+    border: solid black;
+    background-image: url(images/babyelephant.jpg.svg);
     background-repeat: no-repeat;
     background-position: right top;
+    
 }
 
-#header #h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#nav {
-    font-size: 20px;
-}
+.menu {
 
-
-
-#nav li{
-    display: inline;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-#content {
-    overflow: auto;
-    display: inline;
-    width: 200px;
-}
-
-#footer {
-    margin-top: 350px;
-}
-
-#footer li{
-    display: inline;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.article{
-    display: inline;
-    width: 200px;
-    margin: 5px 5px 5px 5px;
-}
-.sidebar {
-    display: inline;
-    float: right;
-    text-align: left;
+    height: 60px;
+    width: 1000px;
+    font: 20px;
+    background-color: burlywood;
     border: solid black;
+}
+
+.left-content {
+    height: 400px;
     width: 200px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
+    background-color: burlywood;
+    border: solid black;
+    float: left;
+}
+
+.content {
+    height: 400px;
+    width: 794px;
+    background-color: burlywood;
+    border: solid black;
+    float: left;
+
+}
+
+.footer {
+    height: 40px;
+    width: 1000px;
+    border: solid black;
+    background-color: blanchedalmond;
+    float: left;
 }
