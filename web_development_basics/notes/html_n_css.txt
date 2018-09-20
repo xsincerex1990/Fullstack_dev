@@ -1,0 +1,38 @@
+HYPERTEXT MARKUP LANGUAGE
+* metadata is data that describes data
+* Content Structure & meaning(eg: headings, pararagraphs images)
+* Set 'utf-8' is sites so it can handle any human language
+* use meta elements to include author & description
+
+* Elements, tags, attributes.
+* Contents in the head are not displayed. It contains info, links to css, icons & metadata.
+* <h1> use once per page unless necessary. The <title> element is metadata that represents the title of the overall HTML document (not the documents content.)
+
+* To apply CSS & JS to HTML its mostly done by <link> & <script> elements
+* <link> always takes two attributes rel="stylessheet" & href="my-css-file.css"
+* Place script at bottom of body just before closing </body> tag.
+* Make any element look like a top level heading <span style="font-size: 32px; margin: 21px 0;"> Heading that looks like top level(<h1>)</span>
+
+*Planning out a site..
+    * Almost Every page follows the rules <header> title & logo </header>
+    *<footer> contact details, copyright notice, terms & conditions
+    *site language
+    *draw a skect
+    *write content down
+    *Then sort to give u an idea of where its going on the page.
+
+*Use HTML Validation Services to check your mark up
+
+
+
+
+
+
+* Self closing elements
+    * <br>, <input>,
+
+
+
+
+Cascade style sheets
+* Selectors, Properties, Values
