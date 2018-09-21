@@ -1,0 +1,52 @@
+body {
+    background-image: url("galaxybg.jpg")
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 10px
+}
+
+.container {
+    margin: 10px;
+    background-color: cornsilk;
+    border: solid black;
+    height: 600px;
+    text-align: center
+}
+
+.mb1 {
+    border: solid black;
+    background-color: firebrick;
+    margin: 3px;
+    top: 50%;
+}
+
+.mb2 {
+    border: solid black;
+    background-color: firebrick;
+    margin: 3px;
+}
+
+.mb3 {
+    border: solid black;
+    background-color: firebrick;
+    margin: 3px;
+}
+.mb4 {
+    border: solid black;
+    background-color: firebrick;
+    margin: 3px;
+}
+.mb5 {
+    border: solid black;
+    background-color: firebrick;
+    margin: 3px;
+}
+
+.mb6 {
+    border: solid black;
+    background-color: firebrick;
+    margin: 3px;
+}

@@ -1,6 +1,11 @@
+#wrapper {
+    display: grid;
+    align-items: center;
+}
+
 #page {
     display: grid;
-    width: 100%;
+    width: 900px;
     height: 500px;
     grid-template:  [header-left] "head head" 30px [header-right]
                     [main-left]   "nav  main" 1fr  [main-right]
