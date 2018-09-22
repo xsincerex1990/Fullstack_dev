@@ -13,10 +13,11 @@ body {
     "main main aside"
     "more-art more-art aside"
     "footer footer footer";
-    grid-template-columns: 300px 300px;
-    grid-auto-columns: minmax(200px, auto);
+    grid-template-columns: 500px;
+    grid-auto-columns: minmax(300px, auto);
 }
 #header {
+    padding: 5px;
     background-color: bisque;
     opacity: 0.8;
     grid-area: head;
@@ -37,7 +38,10 @@ body {
 #nav li {
     margin: 60px;
     display: inline;
-    
+    box-sizing: content-box;
+    border: solid black;
+    padding: 4px;
+
 }
 
 #main {
@@ -56,6 +60,12 @@ body {
     opacity: 0.8;
     grid-area: aside;
 }
+
+#aside-pics {
+    display: flex;
+    box-sizing: content-box;
+} 
+
 #more-art {
     margin-top: 10px;
     margin-right: 10px;
