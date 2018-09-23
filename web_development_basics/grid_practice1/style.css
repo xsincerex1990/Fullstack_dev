@@ -1,9 +1,14 @@
+#nav, #main, #more-art, #aside, #footer {
+    border-radius: 10px;
+}
+
 img {
     max-width: 100%;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("images/galaxybg.jpg");
+    background-image: url("images/joelbg.jpg");
+    back
 }
 #wrapper {
     display: grid;
@@ -14,37 +19,57 @@ body {
     "more-art more-art aside"
     "footer footer footer";
     grid-template-columns: 500px;
-    grid-auto-columns: minmax(300px, auto);
+    grid-gap: 10px;
 }
 #header {
     padding: 5px;
-    background-color: bisque;
     opacity: 0.8;
     grid-area: head;
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
 }
 
 #nav {
+    border-radius: 10px;
+    font-size: 2rem;
     background-color: bisque;
     opacity: 0.8;
     grid-area: nav;
 
 }
-
 #nav ul {
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+}
 
+#nav a {
+    text-decoration: none;
+    margin-block-end: 1em;
 }
 
 #nav li {
-    margin: 60px;
-    display: inline;
-    box-sizing: content-box;
-    border: solid black;
+    margin-block-start: 1em;
+    list-style: none;
+    text-align: center;
+    box-shadow: 2px 2px #750811;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px  #750811;
+    margin: 20px;
     padding: 4px;
+    border: 2px solid #750811;
+    
 
 }
 
+#main h1 {
+    text-shadow: 1px 1px 1px  #750811;
+}
+
 #main {
+    background-blend-mode: color;
     margin-right: 10px;
     padding: 10px;
     margin-top: 10px;
@@ -53,7 +78,13 @@ body {
     grid-area: main;
 }
 
+#aside h2 {
+    text-shadow: 1px 1px 1px  #750811;
+}
+
 #aside {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
     padding: 10px;
     margin-top: 10px;
     background-color: bisque;
@@ -61,12 +92,10 @@ body {
     grid-area: aside;
 }
 
-#aside-pics {
-    display: flex;
-    box-sizing: content-box;
-} 
+
 
 #more-art {
+    list-style: none;
     margin-top: 10px;
     margin-right: 10px;
     background-color: bisque;
@@ -79,5 +108,9 @@ body {
     background-color: bisque;
     opacity: 0.8;
     grid-area:  footer;
+}
+
+#footer p {
+    padding-left: 1B0px;
 }
 
