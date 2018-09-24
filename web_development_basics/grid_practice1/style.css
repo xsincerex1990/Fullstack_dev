@@ -1,14 +1,20 @@
 #nav, #main, #more-art, #aside, #footer {
+    box-shadow: 2px 2px 1px 1px #0a0a0a4a;
     border-radius: 10px;
+    border: 4px solid #750811;
+    padding: 4px;
+    background-color: #d68e5e67;
+
 }
 
 img {
     max-width: 100%;
+    border-radius: 10px;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("images/joelbg.jpg");
-    back
+    background-size: cover;
 }
 #wrapper {
     display: grid;
@@ -22,19 +28,16 @@ body {
     grid-gap: 10px;
 }
 #header {
+    color: black;
+    text-shadow: burlywood;
     padding: 5px;
-    opacity: 0.8;
     grid-area: head;
-    color: white;
     font-size: 40px;
     font-family: cursive;
 }
 
 #nav {
-    border-radius: 10px;
     font-size: 2rem;
-    background-color: bisque;
-    opacity: 0.8;
     grid-area: nav;
 
 }
@@ -44,69 +47,94 @@ body {
     padding: 0;
 }
 
-#nav a {
+a {
+    box-shadow: 2px 2px 1px #0a0a0a4a;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: black;
     text-decoration: none;
-    margin-block-end: 1em;
-}
+    border: 4px solid #750811;
 
-#nav li {
-    margin-block-start: 1em;
+}
+a:hover {
+    background-color: #7508119c;
+}
+#nav, li {
     list-style: none;
     text-align: center;
-    box-shadow: 2px 2px #750811;
-    text-align: center;
-    border-radius: 10px;
     text-shadow: 1px 1px 1px  #750811;
-    margin: 20px;
     padding: 4px;
-    border: 2px solid #750811;
+    align-content: center;
+
     
 
 }
 
 #main h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 4px;
     text-shadow: 1px 1px 1px  #750811;
 }
 
 #main {
-    background-blend-mode: color;
+    text-align: center;
     margin-right: 10px;
     padding: 10px;
     margin-top: 10px;
-    background-color: bisque;
-    opacity: 0.8;
     grid-area: main;
 }
 
 #aside h2 {
+    font-size: 40px;
+    text-align: center;
     text-shadow: 1px 1px 1px  #750811;
 }
 
 #aside {
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(1, 3fr);
     padding: 10px;
     margin-top: 10px;
-    background-color: bisque;
-    opacity: 0.8;
     grid-area: aside;
+
 }
 
+#polaroid {
+    box-shadow: 2px 2px 1px #0a0a0a4a;
+    background-color: #750811;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
 
-
+#polaroid-a {
+    margin: 50px;
+    box-shadow: 2px 2px 1px #0a0a0a4a;
+    background-color: #750811;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    float: left;
+}
 #more-art {
+    padding: 10px;
     list-style: none;
     margin-top: 10px;
     margin-right: 10px;
-    background-color: bisque;
-    opacity: 0.8;
     grid-area:  more-art;
 }
+#more-art h3 {
+    text-shadow: 1px 1px 1px  #750811;
+    text-align: center;
+    font-size: 40px;
+ }
 
-#footer {
+
+
+ #footer {
     margin-top: 10px;
-    background-color: bisque;
-    opacity: 0.8;
     grid-area:  footer;
 }
 
