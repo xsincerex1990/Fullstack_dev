@@ -12,11 +12,16 @@ img {
     border-radius: 10px;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("images/joelbg.jpg");
-    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif
+}
+#part {
+    background: url("images/joelbg.jpg");
+    z-index: -1;
+    height: 100%;
+    width: 100%;
 }
 #wrapper {
+    position: absolute;
     display: grid;
     grid-template-areas: 
     "head head head"
@@ -35,6 +40,7 @@ body {
     font-size: 40px;
     font-family: cursive;
 }
+
 
 #nav {
     font-size: 2rem;
@@ -87,6 +93,9 @@ a:hover {
     grid-area: main;
 }
 
+
+
+
 #aside h2 {
     font-size: 40px;
     text-align: center;
@@ -125,7 +134,7 @@ a:hover {
     margin-right: 10px;
     grid-area:  more-art;
 }
-#more-art h3 {
+#more-art h3,{
     text-shadow: 1px 1px 1px  #750811;
     text-align: center;
     font-size: 40px;

@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body id="part">
         <div id="wrapper">
 
             <div id="header">Science stuff</div>
@@ -35,11 +35,12 @@
                 
 
         
-            
+        
             <div id="main">
                 <h1>Top story</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id porro excepturi debitis iste doloribus aliquam enim maxime, reprehenderit, quos nostrum nisi dignissimos mollitia ipsam, laudantium culpa eum praesentium ipsum asperiores cumque commodi quis eligendi quas. Placeat maxime, labore unde porro nostrum, ad deleniti eum qui quaerat, recusandae veritatis dolorem deserunt beatae! Suscipit quaerat nemo quidem autem illo expedita rem asperiores. Magni alias atque eaque deleniti veniam. Inventore ullam quia non minima dignissimos quis. Velit esse, iusto pariatur eum inventore aperiam modi quaerat aut alias porro similique doloribus officiis id delectus mollitia cumque dolores. Ea, obcaecati sit recusandae ex numquam perspiciatis modi quo, quae saepe, inventore officiis quia. Sit nostrum animi non sapiente error, qui quidem, corporis nulla consectetur magnam eum totam! Accusamus vero laudantium doloribus blanditiis deleniti mollitia? Eum sequi cupiditate, commodi aspernatur facere tempore neque! Repellat sunt totam modi quis eveniet laboriosam omnis velit quaerat veritatis voluptate a molestias dolore nesciunt voluptatum, esse, doloribus laudantium ratione cum laborum possimus architecto dignissimos dolorem ipsum. Quis placeat accusantium deleniti ad commodi laborum animi explicabo quod, aliquid, voluptatem eaque consequuntur culpa accusamus consectetur temporibus? Natus ducimus non quod illum, veritatis earum quam ea culpa odio amet, quisquam provident qui et cupiditate adipisci.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vitae voluptatum consequuntur tempore deleniti aliquid iusto ipsum eaque, sit sapiente qui fuga quas et vel harum ducimus voluptatem odit! Iure molestias sunt repellendus ut magnam minus itaque debitis doloribus esse. Dicta amet assumenda odit eaque deleniti ipsa quo, officia asperiores? Animi ullam culpa illo obcaecati, consequuntur sequi laborum impedit ab quia, quisquam incidunt fuga vitae doloribus molestias, corporis perspiciatis maxime accusantium inventore ratione odit? Maiores vitae ipsam porro suscipit, provident, ducimus quasi nam laudantium corporis, tenetur at nostrum recusandae? Soluta ex iure, deleniti exercitationem alias voluptatem quos illum fuga perspiciatis corporis quibusdam quaerat totam expedita. Alias, facilis, reiciendis laborum minima et voluptas ipsum dicta nam maxime maiores expedita sit aliquam eligendi voluptatem neque perferendis iusto eos ducimus obcaecati ab dolorum repellat labore. Eaque eveniet natus perferendis consequatur laborum quidem, reprehenderit repudiandae incidunt, veniam magnam, animi perspiciatis ratione? A totam deserunt eius illo distinctio nisi delectus harum nemo, sed praesentium vitae accusantium velit in voluptate placeat, eaque nesciunt fugit? Odio eos alias aliquid magni soluta voluptas hic unde. Aliquam aperiam minima repellendus non aliquid doloremque quod similique, facilis voluptatibus tempore! Nobis iste alias ut velit rerum minus eligendi exercitationem distinctio labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id porro excepturi debitis iste doloribus aliquam enim maxime, reprehenderit, quos nostrum nisi dignissimos mollitia ipsam, laudantium culpa eum praesentium ipsum asperiores cumque commodi quis eligendi quas. Placeat maxime, labore unde porro nostrum, ad deleniti eum qui quaerat, recusandae veritatis dolorem deserunt beatae! Suscipit quaerat nemo quidem autem illo expedita rem asperiores. Magni alias atque eaque deleniti veniam. Inventore ullam quia non minima dignissimos quis. Velit esse, iusto pariatur eum inventore aperiam modi quaerat aut alias porro similique doloribus officiis id delectus mollitia cumque dolores. Ea, obcaecati sit recusandae ex numquam perspiciatis modi quo, quae saepe, inventore officiis quia. Sit nostrum animi non sapiente error, qui quidem, corporis nulla consectetur magnam eum totam! Accusamus vero laudantium doloribus blanditiis deleniti mollitia? Eum sequi cupiditate, commodi aspernatur facere tempore neque! Repellat sunt totam modi quis eveniet laboriosam omnis velit quaerat veritatis voluptate a molestias dolore nesciunt voluptatum, esse, doloribus laudantium ratione cum laborum possimus architecto dignissimos dolorem ipsum. Quis placeat accusantium deleniti ad commodi laborum animi explicabo quod, aliquid, voluptatem eaque consequuntur culpa accusamus consectetur temporibus? Natus ducimus non quod illum, veritatis earum quam ea culpa odio amet, quisquam provident qui et cupiditate adipisci.</p>
             </div>
+    
 
             <div id="aside">
                 <h2>Other Pics</h2>
@@ -72,7 +73,6 @@
 
             <div id="more-art">
                 <h3>More articles</h3>
-                    <div id="ma-pics">
                     <div id="polaroid-a">
                         <img src="https://source.unsplash.com/random/201x201">
                         <p>Lorem ipsum dolor sit.</p>
@@ -87,14 +87,22 @@
                         <img src="https://source.unsplash.com/random/201x203">
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
-                    </div>
             </div>
 
             <div id="footer">
                 <p>Copyright &copy;</p>
             </div>
         </div>
+        
+    
+        
 
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script>
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('part', 'particles.json', function() {
+  console.log('callback - particles.js config loaded');
+}); </script>
 
     </body>
 </html>
