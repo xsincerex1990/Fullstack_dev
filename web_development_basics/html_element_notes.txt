@@ -1,5 +1,0 @@
-<span> has no semantics. use it to wrap content when you want to apply CSS to itor do something to it with JavaScript) without giving it any extra meaning....stick with relevant HTMl elements for the job..
-
-https://www.lifewire.com/why-use-semantic-html-3468271
-
-

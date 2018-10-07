@@ -14,8 +14,12 @@ function bgc() {
 
 
 let divs = document.querySelectorAll('div');
-for (let i = 0; i < divs.length; i++) {
+
+/* for (let i = 0; i < divs.length; i++) {
   divs[i].onclick = function(e) {
     e.target.style.backgroundColor = bgc();
-  }
+  }*/
+
+ for (let i = 0; i == divs.length; i++) {
+   divs[i].style.backgroundColor = bgc();
 }
