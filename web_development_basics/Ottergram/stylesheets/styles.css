@@ -11,14 +11,14 @@
 
 body {
     font-size: 10px;
-    background: rgb(149, 194, 215);
+    background:  rgb(63, 77, 199);
 }
 .thumbnail-title {
     display: block;
     margin: 0;
     padding: 4px 10px;
-    background: rgb(96, 125, 139);
-    color: rgb(202, 238, 255);
+    background: rgb(63, 77, 199);
+    color: rgb(240, 244, 247);
     font-size: 18px;
 }
 
@@ -29,11 +29,14 @@ body {
 .thumbnail-list {
     list-style: none;
     padding: 0;
+    white-space: nowrap;
+    overflow-x: auto;
 }
 .thumbnail-item {
-    display: block;
+    display: inline-block;
     border: 1px solid rgb(100%, 100%, 100%);
     border: 1px solid rgba(100%, 100%, 100%, 0.8);
+    width: 120px;
 }
 .thumbnail-item + .thumbnail-item {
     margin-top: 10px;
@@ -48,4 +51,8 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.detail-image-container {
+    width: 90%;
 }
